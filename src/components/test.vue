@@ -32,7 +32,7 @@
       <li :class="{active: active===3}">
         content-3
       </li>
-      <li :class="{active: active===4}">
+      <li :class="classObject">
         content-4
       </li>
     </ul>
@@ -41,12 +41,16 @@
 
 <script>
 export default {
-  props: {},
+ // props: {},
   data() {
-    return {
-      active: 0 // 当前激活的导航索引
+  return {
+    classObject:{ 
+      active: 1, 
+      sort:0
     }
-  },
+  }
+},
+
   mounted() {
     // 监听滚动事件
     window.addEventListener('scroll', this.onScroll, false)
@@ -76,7 +80,15 @@ export default {
           navIndex = n
         }
       }
-      this.active = navIndex
+      if (navIndex == 2)
+      {
+        this.classObject.sort  =  true
+      }
+      if (navIndex == 3)
+      {
+        this.classObject.sort  =  false
+      }
+        
     },
   }
 }

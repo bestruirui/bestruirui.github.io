@@ -1,26 +1,22 @@
 <template>
   <div class="ha-header-perspective">
     <div class="ha-header-front">
-      <h1><span>Header Effects</span></h1>
+      <h1><span>大标题</span></h1>
       <nav>
-        <a href="http://tympanus.net/Development/AnimatedBooks/"
-          >&lsaquo; Previous Demo</a
-        >
-        <a>Something</a>
-        <a>Anything</a>
-        <a href="http://tympanus.net/codrops/?p=15935">Back to the article</a>
+        <a href="http://tympanus.net/Development/AnimatedBooks/">小标题1</a>
+        <a>小标题2</a>
+        <a>小标题3</a>
+        <a href="http://tympanus.net/codrops/?p=15935">小标题4</a>
       </nav>
     </div>
     <div class="ha-header-bottom">
       <nav>
-        <a>Dalliance</a>
-        <a>Inglenook</a>
-        <a>Lagniappe</a>
-        <a>Mellifluous</a>
-        <a>Erstwhile</a>
-        <a>Wafture</a>
-        <a>Serendipity</a>
-        <a>Love</a>
+        <a>子标题1</a>
+        <a>子标题2</a>
+        <a>子标题3</a>
+        <a>子标题4</a>
+        <a>子标题5</a>
+        <a>子标题6</a>
       </nav>
     </div>
   </div>
