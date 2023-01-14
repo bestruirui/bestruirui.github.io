@@ -1,14 +1,14 @@
 <script setup>
-import Header_Perspective from './components/header.vue'
-import RUI_Content from './components/RUI_Content.vue'
+import Header from './components/header.vue'
+import content from './components/content.vue'
 //import TEST from './components/test.vue'
 </script>
 
 <template>
   <header id="ha-header" :class="['ha-header',classObject]">
-      <Header_Perspective/>
+      <Header/>
   </header>
-  <RUI_Content/>
+  <content/>
 </template>
 <script>
 export default {
